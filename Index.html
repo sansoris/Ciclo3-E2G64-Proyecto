@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Se lo Recomiendo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <style> 
+        input[type=text] {
+          padding: 6px 10px;
+          margin: 4px 2px;
+          box-sizing: border-box;
+        }
+        input[type=text]:focus {
+        background-color: lightblue;
+        }
+        input[type=tel] {
+          padding: 6px 10px;
+          margin: 4px 2px;
+          box-sizing: border-box;
+        }
+        input[type=email] {
+          padding: 6px 10px;
+          margin: 4px 2px;
+          box-sizing: border-box;
+        }
+        input[type=button], input[type=submit], input[type=reset] {
+        background-color: #4CAF50;
+        border: none;
+        color: white;
+        padding: 16px 32px;
+        text-decoration: none;
+        margin: 4px 2px;
+        cursor: pointer;
+}
+
+        </style>
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-between">
+        <a class="navbar-brand" href="#">
+            <img src="PruebaLogo.jpg" width="80" height="100" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" 
+                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
+                aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Inicio <span class="sr-only">(Actual)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Quienes Somos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Servicios Disponibles</a>
+              </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Registro</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contáctenos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Términos y Condiciones</a>
+            </li>
+            <!-- Pendiente revisar -->
+<!--             <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" 
+                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown
+              </a>
+
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Disabled</a>
+            </li> -->
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+          </form>
+        </div>
+      </nav>
+    <section>  
+          <!-- Código banner - carousel -->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="\img\1.png" class="d-block w-100" alt="Banner 1">
+            <div class="carousel-caption d-none d-md-block">
+              <h1>Te lo Recomiendo</h1>
+              <p>Ofrece la solución que su hogar necesita</p>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img src="\img\2.png" class="d-block w-100" alt="Banner 2">
+            <div class="carousel-caption d-none d-md-block">
+              <p><a class="btn btn-lg btn-primary" href="#">Abrir</a></p>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img src="\img\3.png" class="d-block w-100" alt="Banner 3">
+          </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>  
+    </section>
+    <section>
+        <form>
+            <div>
+                <label>Nombre</label>
+                <input type="text" placeholder="Nombre">
+            </div>
+            <div>
+                <label>Apellido</label>
+                <input type="text" placeholder="Apellido">
+            </div>
+            <div>
+                <label>Telefono</label>
+                <input type="tel">
+            </div>
+            <div>
+                <label>Ciudad</label>
+                <input type="text">
+            </div>
+            <div>
+                <label>Email</label>
+                <input type="email" placeholder="ingrese el email">
+            </div>
+            <div>
+                <ol>
+                    <ul>
+                        <input type="checkbox" value="" id="Servicio1">
+                        <label>Servicio1</label>
+                    </ul>
+                    <ul>
+                        <input type="checkbox" value="" id="Servicio2">
+                        <label>Servicio2</label>
+                    </ul>
+                    <ul>
+                        <input type="checkbox" value="" id="Servicio3">
+                        <label>Servicio3</label>
+                    </ul>
+                    <ul>
+                        <input type="checkbox" value="" id="Servicio4">
+                        <label>Servicio4</label>
+                    </ul>
+                    <ul>
+                        <input type="checkbox" value="" id="Servicio5">
+                        <label>Servicio5</label>
+                    </ul>
+                    <button type="submit">Recomendar</button>
+                </ol>
+            </div>
+        </form>
+    </section>
+</body>
+</html>
