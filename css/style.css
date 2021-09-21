@@ -1126,7 +1126,7 @@ margin-right: 10px;
 .carousel-indicators .active {
     background-color: #1a1b19;
 }
-.carousel-indicators li {width: 15px; height: 15px; border-radius: 10px; background: #428713; }
+.carousel-indicators li {width: 15px; height: 15px; border-radius: 10px; background: #FF8C00; }
 .padding_dd {padding: 0px 50px;}
 .carousel-control-next {display: none;}
 .carousel-control-prev {display: none;}
@@ -1164,7 +1164,7 @@ background-repeat: no-repeat;
      line-height: 40px;
      font-size: 45px;
      text-transform:uppercase;
-     background: #547d13;
+     background: #FF8C00;
      display: inline-block;
      padding: 20px 30px;
 
