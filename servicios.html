@@ -8,6 +8,12 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
     <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./Modelos/css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Krub&display=swap" rel="stylesheet">
+    <link rel="preload" href="./Modelos/css/styles.css" as="styles" />
+    <link href="css/styles.css" rel="stylesheet" />
 
 
   <!-- bootstrap css -->
@@ -22,41 +28,10 @@
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
   
-<style> 
-        input[type=text] {
-          padding: 6px 10px;
-          margin: 4px 2px;
-          box-sizing: border-box;
-        }
-        input[type=text]:focus {
-        background-color: lightblue;
-        }
-        input[type=tel] {
-          padding: 6px 10px;
-          margin: 4px 2px;
-          box-sizing: border-box;
-        }
-        input[type=email] {
-          padding: 6px 10px;
-          margin: 4px 2px;
-          box-sizing: border-box;
-        }
-        input[type=button], input[type=submit], input[type=reset] {
-        background-color: #4CAF50;
-        border: none;
-        color: white;
-        padding: 16px 32px;
-        text-decoration: none;
-        margin: 4px 2px;
-        cursor: pointer;
-}
-
-        </style>
-    
 </head>
 <body>
   <!-- Barra de navegación página -->
-  
+ 
     <!-- header inner -->
     <div class="header-top">
       <div class="header">
@@ -103,83 +78,86 @@
     </div>
   </nav>
 <!-- FIN Barra de navegación página -->
-<!-- Contenedor quienes somos -->
+<!-- Inicio servicios -->
 
-<a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-  <span class="sr-only">Previous</span>
-</a>
-<a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-  <span class="sr-only">Next</span>
-</a>
-</div>
+   <div class="contenedor sombra">
+        
+        <main class="servicios">
+            <div class="servicio">
+                <h3>Servicio 1</h3>
+                <div class="iconos">
+                    <!-- <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-world" width="68" -->
+                    <svg img src="./img/servicio1.png" width="68"
+                        height="68" viewBox="0 0 24 24" stroke-width="1.5" stroke="#6f32be" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <circle cx="12" cy="12" r="9" />
+                        <line x1="3.6" y1="9" x2="20.4" y2="9" />
+                        <line x1="3.6" y1="15" x2="20.4" y2="15" />
+                        <path d="M11.5 3a17 17 0 0 0 0 18" />
+                        <path d="M12.5 3a17 17 0 0 1 0 18" />
+                    </svg>
+                </div>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus
+                    eveniet iusto consequuntur et quisquam rem. Obcaecati recusandae sit
+                    animi, sapiente dolorem alias? Sapiente nisi asperiores est nulla,
+                    voluptas exercitationem in?
+                </p>
+            </div>
 
-</section>
-</div>
-</header>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+            <div class="servicio">
+                <h3>Servicio 2</h3>
+                <div class="iconos">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-versions" width="68"
+                        height="68" viewBox="0 0 24 24" stroke-width="1.5" stroke="#6f32be" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <rect x="10" y="5" width="10" height="14" rx="2" />
+                        <line x1="7" y1="7" x2="7" y2="17" />
+                        <line x1="4" y1="8" x2="4" y2="16" />
+                    </svg>
+                </div>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, sed?
+                    Expedita mollitia maxime sint esse minus aspernatur dicta, eligendi
+                    ducimus, accusamus perferendis voluptatem nulla ipsa. Voluptas porro
+                    asperiores exercitationem accusamus.
+                </p>
+            </div>
+
+            <div class="servicio">
+                <h3>Servicio 3</h3>
+                <div class="iconos">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-shopping-cart"
+                        width="68" height="68" viewBox="0 0 24 24" stroke-width="1.5" stroke="#6f32be" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <circle cx="6" cy="19" r="2" />
+                        <circle cx="17" cy="19" r="2" />
+                        <path d="M17 17h-11v-14h-2" />
+                        <path d="M6 5l14 1l-1 7h-13" />
+                    </svg>
+                </div>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
+                    vitae, inventore totam quam aliquam voluptatum ea vero exercitationem
+                    explicabo omnis perferendis fuga, dolor dolorum cupiditate fugiat
+                    tempore temporibus tenetur nihil.
+                </p>
+            </div>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>  
-    </section>
-    <section>
-        <form>
-            <div>
-                <label>Nombre</label>
-                <input type="text" placeholder="Nombre">
-            </div>
-            <div>
-                <label>Apellido</label>
-                <input type="text" placeholder="Apellido">
-            </div>
-            <div>
-                <label>Telefono</label>
-                <input type="tel">
-            </div>
-            <div>
-                <label>Ciudad</label>
-                <input type="text">
-            </div>
-            <div>
-                <label>Email</label>
-                <input type="email" placeholder="ingrese el email">
-            </div>
-            <div>
-                <ol>
-                    <ul>
-                        <input type="checkbox" value="" id="Servicio1">
-                        <label>Servicio1</label>
-                    </ul>
-                    <ul>
-                        <input type="checkbox" value="" id="Servicio2">
-                        <label>Servicio2</label>
-                    </ul>
-                    <ul>
-                        <input type="checkbox" value="" id="Servicio3">
-                        <label>Servicio3</label>
-                    </ul>
-                    <ul>
-                        <input type="checkbox" value="" id="Servicio4">
-                        <label>Servicio4</label>
-                    </ul>
-                    <ul>
-                        <input type="checkbox" value="" id="Servicio5">
-                        <label>Servicio5</label>
-                    </ul>
-                    <button type="submit">Recomendar</button>
-                </ol>
-            </div>
-        </form>
-    </section>
+    </main>
+ 
 
-      <!-- Footer beging -->
+
+
+
+
+
+<!-- fin servicios -->
+
+  <!-- Footer beging -->
     <div class="social-media">
         <h2 class="seccion-pie">Se Lo Recomiendo © 2021</h2>
         <ul class="social">

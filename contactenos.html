@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quienes somos</title>
+    <title>Contactenos</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
     <link rel="stylesheet" href="./css/footer.css">
@@ -21,42 +21,13 @@
 
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
-  
-<style> 
-        input[type=text] {
-          padding: 6px 10px;
-          margin: 4px 2px;
-          box-sizing: border-box;
-        }
-        input[type=text]:focus {
-        background-color: lightblue;
-        }
-        input[type=tel] {
-          padding: 6px 10px;
-          margin: 4px 2px;
-          box-sizing: border-box;
-        }
-        input[type=email] {
-          padding: 6px 10px;
-          margin: 4px 2px;
-          box-sizing: border-box;
-        }
-        input[type=button], input[type=submit], input[type=reset] {
-        background-color: #4CAF50;
-        border: none;
-        color: white;
-        padding: 16px 32px;
-        text-decoration: none;
-        margin: 4px 2px;
-        cursor: pointer;
-}
+    <link rel="stylesheet" href="./css/footer.css">
 
-        </style>
-    
-</head>
+
+  </head>
 <body>
   <!-- Barra de navegación página -->
-  
+ 
     <!-- header inner -->
     <div class="header-top">
       <div class="header">
@@ -103,81 +74,37 @@
     </div>
   </nav>
 <!-- FIN Barra de navegación página -->
-<!-- Contenedor quienes somos -->
+<!-- Contactenos -->
+<div>
+        <div id="contacto" class="contacto">
+            <form class="formulario" action="#" method="POST">
 
-<a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-  <span class="sr-only">Previous</span>
-</a>
-<a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-  <span class="sr-only">Next</span>
-</a>
-</div>
+                <legend>Contáctenos</legend>
 
-</section>
-</div>
-</header>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+                <div class="contenedor de campos">
+
+                    <div class="campo w-100">
+                        <label>Descripción:</label>
+                        <textarea> </textarea>
+                    </div>
+
+                    <div class="campo">
+                        <label>Nombre:</label>
+                        <input type="text" name="nombre" placeholder="Nombre" required>
+                    </div>
+
+                    <div class="campo w-100">
+                        <label>Correo:</label>
+                        <input type="email" name="correo" placeholder="Mail">
+                    </div>
+
+                    <div class="enviar">
+                        <input class="boton" type="submit" value="Enviar">
+                    </div>
+                </div>
+            </form>
+        </div>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>  
-    </section>
-    <section>
-        <form>
-            <div>
-                <label>Nombre</label>
-                <input type="text" placeholder="Nombre">
-            </div>
-            <div>
-                <label>Apellido</label>
-                <input type="text" placeholder="Apellido">
-            </div>
-            <div>
-                <label>Telefono</label>
-                <input type="tel">
-            </div>
-            <div>
-                <label>Ciudad</label>
-                <input type="text">
-            </div>
-            <div>
-                <label>Email</label>
-                <input type="email" placeholder="ingrese el email">
-            </div>
-            <div>
-                <ol>
-                    <ul>
-                        <input type="checkbox" value="" id="Servicio1">
-                        <label>Servicio1</label>
-                    </ul>
-                    <ul>
-                        <input type="checkbox" value="" id="Servicio2">
-                        <label>Servicio2</label>
-                    </ul>
-                    <ul>
-                        <input type="checkbox" value="" id="Servicio3">
-                        <label>Servicio3</label>
-                    </ul>
-                    <ul>
-                        <input type="checkbox" value="" id="Servicio4">
-                        <label>Servicio4</label>
-                    </ul>
-                    <ul>
-                        <input type="checkbox" value="" id="Servicio5">
-                        <label>Servicio5</label>
-                    </ul>
-                    <button type="submit">Recomendar</button>
-                </ol>
-            </div>
-        </form>
-    </section>
 
       <!-- Footer beging -->
     <div class="social-media">
@@ -190,6 +117,7 @@
         </ul>
     </div>
     <!-- Footer ending -->
+
 
  
 <!-- Javascript files-->
