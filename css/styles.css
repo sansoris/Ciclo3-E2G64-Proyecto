@@ -85,7 +85,7 @@ body {
   color: var(--blanco);
 }
 .boton {
-  background-color: var(--secundario);
+  background-color: #8b0000;
   color: var(--blanco);
   margin-top: 0.5rem;
   padding: 0.5rem 3rem;
@@ -164,7 +164,7 @@ h3 {
   box-shadow: 0px 11px 15px -9px rgba(0, 0, 0, 0.63);
 }
 .formulario {
-  background-color: var(--gris);
+  background-color: #FFA07A;
   padding: 2rem;
   border-radius: 10px;
   scroll-snap-align: center;
@@ -173,7 +173,7 @@ h3 {
 .formulario legend {
   text-align: center;
   font-size: 1.2rem;
-  color: var(--primario);
+  color: #8b0000;
   margin-bottom: 2rem;
   display: block;
   text-transform: uppercase;
@@ -245,6 +245,7 @@ h3 {
 .enviar {
   display: flex;
   justify-content: flex-end;
+  color : #8b0000;
 }
 .footer {
   text-align: center;

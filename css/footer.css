@@ -1,8 +1,8 @@
 .social-media {
-    background-color: #8b0000;
+    background-color: #FFA07A;
     padding-top: 1%;
-    opacity: 60%;
-    height: 100px;
+    /* opacity: 60%; */
+    height: 60px;
     display: flex;
     color: grey;
     justify-content: center;
@@ -21,5 +21,5 @@
 }
 
 .social a {
-    padding: 1px;
+    padding: 10px;
 }
